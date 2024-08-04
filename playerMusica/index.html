@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Music Player</title>
+</head>
+
+<body>
+
+    <div class="background">
+        <img src="" id="bg-img">
+    </div>
+    <div class="container2">
+        <div class="sons">
+            <img src="assets/ye.png" class="covers">
+            <div class="info">
+                <p>Ghost Town</p>
+                <p class="artistane">Kanye West</p>
+            </div>
+        </div>
+        <div class="sons">
+            <img src="assets/tcd.jpg" class="covers">
+            <div class="info">
+                <p>The New Workout Plan</p>
+                <p class="artistane">Kanye West</p>
+            </div>
+        </div>
+        <div class="sons">
+            <img src="assets/topimp.jpg" class="covers">
+            <div class="info">
+                <p>King Kunta</p>
+                <p class="artistane">Kendrick Lamar</p>
+            </div>
+        </div>
+        <div class="sons">
+            <img src="assets/notlikeus.png" class="covers">
+            <div class="info">
+                <p>Not Like Us</p>
+                <p class="artistane">Kendrick Lamar</p>
+            </div>
+        </div>
+        <div class="sons">
+            <img src="assets/mmfood.jpg" class="covers">
+            <div class="info">
+                <p>Potholderz</p>
+                <p class="artistane">MF DOOM</p>
+            </div>
+        </div>
+        <div class="sons">
+            <img src="assets/mad.jpg" class="covers">
+            <div class="info">
+                <p>All Caps</p>
+                <p class="artistane">MF DOOM</p>
+            </div>
+        </div>
+        <div class="sons">
+            <img src="assets/utopia.jpg" class="covers">
+            <div class="info">
+                <p>TIL FUTHER NOTICE</p>
+                <p class="artistane">Travis Scott</p>
+            </div>
+        </div>
+        <div class="sons">
+            <img src="assets/astro.jpg" class="covers">
+            <div class="info">
+                <p>CAN'T SAY</p>
+                <p class="artistane">Travis Scott</p>
+            </div>
+        </div>
+        <div class="sons">
+            <img src="assets/igor.jpg" class="covers">
+            <div class="info">
+                <p>NEW MAGIC WAND</p>
+                <p class="artistane">Tyler, The Creator</p>
+            </div>
+        </div>      
+        <div class="sons">
+            <img src="assets/best.jpg" class="covers">
+            <div class="info">
+                <p>BEST INTEREST</p>
+                <p class="artistane">Tyler, The Creator</p>
+            </div>
+        </div>  
+    </div>
+
+    <div class="container">
+        <div class="player-img">
+            <img src="" class="active" id="cover">
+        </div>
+
+        <h2 id="titulo-musica"></h2>
+        <h3 id="artista-musica"></h3>
+
+
+        <div class="player-progresso" id="player-progresso">
+            <div class="progresso" id="progresso"></div>
+            <div class="musica-duracao">
+                <span id="tempo-atual">0:00</span>
+                <span id="duracao">0:00</span>
+            </div>
+        </div>
+
+        <div class="player-controles">
+            <i class="fa-solid fa-backward" title="anterior" id="ant"></i>
+            <i class="fa-solid fa-play play-button" title="play" id="play"></i>
+            <i class="fa-solid fa-forward" title="proximo" id="prox"></i>
+        </div>
+
+        <div class="ladoalado">
+            <i class="fa-solid fa-volume-low" id="volume-icon"></i>
+            <div class="volume-controle">
+                <input type="range" id="volume" min="0" max="1" step="0.01" value="1" class="volume-range">
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
