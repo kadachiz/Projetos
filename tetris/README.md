@@ -1,3 +1,3 @@
-# Player de música
+# Tetris
 ## Print do projeto
 ![](screenshot.png)
