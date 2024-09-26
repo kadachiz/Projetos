@@ -132,7 +132,7 @@ function draw() {
     text("Controles:\n↑\n← ↓ →\n", 75, 155);
     text("Direita e Esquerda:\nmove as peças", 75, 230);
     text("Cima:\nGira a peça", 75, 280);
-    text("Baixo:\nfall faster", 75, 330);
+    text("Baixo:\nCaia rápido", 75, 330);
     text("R:\nResetar o jogo", 75, 380);
 
     if (gameOver) {
