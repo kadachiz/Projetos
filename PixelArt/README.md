@@ -1,3 +1,3 @@
 # Clima
 ## Print do projeto
-![](paint)
+![](paint.png)
