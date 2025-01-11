@@ -1,3 +1,3 @@
 # Pixel Art
 ## Print do projeto
-![](paint)
+![](paint.png)
