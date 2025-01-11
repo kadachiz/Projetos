@@ -1,3 +1,3 @@
-# Clima
+# Pixel Art
 ## Print do projeto
-![](paint.png)
+![](paint)
