@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Gerador de Sombra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="conteiner">
+        <div class="resultado">
+            <div id="visualizacao"></div>
+        </div>
+
+        <div class="configuracoes">
+            <div class="intervalo">
+                <label for="sombra-horizontal">Sombra Horizontal:</label>
+                <input type="range" id="sombra-horizontal" min="-100" max="100" value="-6">
+            </div>
+            <div class="intervalo">
+                <label for="sombra-vertical">Sombra Vertical:</label>
+                <input type="range" id="sombra-vertical" min="-100" max="100" value="15">
+            </div>
+            <div class="intervalo">
+                <label for="raio-desuavizacao">Raio de Suavização:</label>
+                <input type="range" id="raio-desuavizacao" min="0" max="100" value="30">
+            </div>
+            <div class="intervalo">
+                <label for="raio-expansao">Raio de Expansão:</label>
+                <input type="range" id="raio-expansao" min="-50" max="50" value="6">
+            </div>
+            <div class="intervalo">
+                <label for="raio-borda">Raio da Borda:</label>
+                <input type="range" id="raio-borda" min="0" max="100" step="1" value="70">
+            </div>
+            <div class="intervalo">
+                <label for="opacidade-sombra">Opacidade da Sombra:</label>
+                <input type="range" id="opacidade-sombra" min="0" max="1" step="0.1" value="0.5">
+            </div>
+
+            <div class="entrada">
+                <label for="sombra-interna">Sombra Interna:</label>
+                <input type="checkbox" id="sombra-interna">
+            </div>
+
+            <div id="cor-sombra">
+                <label for="cor-da-sombra">Cor da Sombra:</label>
+                <input type="color" id="cor-da-sombra">
+            </div>
+
+        </div>
+
+        <div class="codigo">
+            <textarea id="estilos" rows="2"></textarea>
+            <button id="copiar-estilos" onclick="copiarEstilos()">Copiar</button>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
